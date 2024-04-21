@@ -21,8 +21,7 @@ int main() {
         }
 
         if (ev.type == EV_KEY) {
-            // Print the key code
-            printf("Key code: %d\n", ev.code);
+            printf("Key code is %d\n", ev.code);
         }
     }
 

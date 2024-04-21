@@ -3,7 +3,6 @@
 #include <fcntl.h>
 #include <unistd.h>
 
-// ./a.out pid address size
 int main(int argc, char **argv) {
     std::string pid = "23853";
     std::string address = "0x7ffd104f2d60";
